@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Mini Convenience Store</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header>
+        <h1>The Mini Convenience Store Test Changes</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to Our Website</h2>
+            <p>Managed by a college student who runs a store as a side gig.</p>
+            <img src="IMG_6400.JPG" alt="Me">
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>A starter site for a mini convenience store.</p>
+        </section>
+
+        <section id="products">
+            <h2>Our Products</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Fat Free Chips</td>
+                        <td>$10</td>
+                    </tr>
+                    <tr>
+                        <td>Coca Cola</td>
+                        <td>$4.50</td>
+                    </tr>
+                    <tr>
+                        <td>Gummy Bears</td>
+                        <td>$3.00</td>
+                    </tr>
+                    <tr>
+                        <td>Food Cake</td>
+                        <td>$17.00</td>
+                    </tr>
+                    <tr>
+                        <td>Fruit Cup Variety</td>
+                        <td>$20.00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+       
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>My School Account: fmallari@dmacc.edu</p>
+        </section>
+
+        <section id="form-section">
+            <h2>Feedback Form</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+
+                <fieldset>
+                    <legend> Contact Method:</legend>
+                    <label><input type="radio" name="contact" value="email" required> Email</label>
+                    <label><input type="radio" name="contact" value="phone"> Phone</label>
+                </fieldset>
+
+                <label for="dropdown">Choose a product:</label>
+                <select id="dropdown" name="product">
+                    <option value="chips">Fat Free Chips</option>
+                    <option value="cola">Coca Cola</option>
+                    <option value="gummy">Gummy Bears</option>
+                </select>
+
+                <label for="listbox">Select your favorite snacks:</label>
+                <select id="listbox" name="snacks" multiple>
+                    <option value="chips">Fat Free Chips</option>
+                    <option value="cola">Coca Cola</option>
+                    <option value="gummy">Gummy Bears</option>
+                    <option value="cake">Food Cake</option>
+                    <option value="fruit">Fruit Cup Variety</option>
+                </select>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 A Fake Organization. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
